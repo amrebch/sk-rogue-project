@@ -1,0 +1,163 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.welcome {
+    width: 1200px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/****** HEADER ******/
+
+header {
+    height: 110px;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: 'Montserrat', serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #000000;
+    padding: 20px 0 20px 0px;
+
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right; 
+    padding: 35px 0 30px 0px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    font-family: 'Montserrat', serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #77a466;
+    padding-left: 15px; 
+}
+
+/****** ABOUT ******/
+
+
+#about .full-width {
+    padding-top: 0px;
+}
+
+.hero-image {
+	height: auto;
+	float: left;
+}
+.hero-image img {
+	border-bottom: 3px solid #77a466;
+}
+
+#about h2 {
+    font-family: 'Montserrat', serif;
+    text-transform: uppercase;
+    font: bolder;
+    color: #77a466;
+    font-size: 24px;
+    padding-left: 0px;
+    margin: 40px 0 25px 0;
+}
+ 
+#about p {
+    font-family: 'Montserrat', serif;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 15px 0 0 0;
+    margin: 0 auto;
+
+}
+
+/****** SECTIONS ******/
+
+#section .full-width {
+    padding: 115px 0;
+}
+
+
+#section h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 25px;
+    padding: 0px 30px;
+    width: 400px;
+    margin: 0 auto;
+}
+ 
+#section p {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 20px 30px;
+    float: inline-start;
+}
+
+
+}
+#menu ul{
+    list-style: none;
+    line-height: 40px;
+    padding: 0 30px;
+}
+
+#locations ul {
+    list-style: none;
+    line-height: 25px;
+    padding: 0 30px;
+    float: inline-start;
+}
+
+/****** FOOTER ******/
+footer {
+    padding-left:425px;
+    clear: both;
+    border-top: 1px solid #eee;
+}
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer p span {
+    font-family: 'Galada', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: lowercase;
+    color: #77a466;
+}
+
+
